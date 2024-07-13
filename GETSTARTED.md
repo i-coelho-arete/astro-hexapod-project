@@ -5,7 +5,7 @@
 1. [Introdução](#introdução)
 2. [Ferramentas e Tecnologias](#ferramentas-e-tecnologias)
 3. [Estrutura do Plano de Desenvolvimento](#estrutura-do-plano-de-desenvolvimento)
-   - [Instalação do Software e Conhecimento de Hardware](#instalação-do-software-e-conhecimento-de-hardware)
+   - [Instalação do Software e Conhecimento de Hardware](#instalação-do-software-e-conhecimento-de-hardware-windows)
    - [Montagem do Robô](#montagem-do-robô)
    - [Inicialização de Posições](#inicialização-de-posições)
    - [Movimentação Básica do Robô](#movimentação-básica-do-robô)
@@ -84,9 +84,15 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
 4. **Verificar a Instalação do Driver**
    - Para garantir que o driver CP210x foi instalado corretamente:
      1. Conecte a placa ESP8266 ao seu computador.
-     2. Abra o `Gerenciador de Dispositivos` no Windows.
-     3. Expanda a seção `Portas (COM & LPT)`.
-     4. Verifique se a sua placa ESP8266 aparece listada como `Silicon Labs CP210x USB to UART Bridge (COMx)`, onde `COMx` é a porta COM atribuída.
+     2. Pressione as teclas `Win + X` ao mesmo tempo.
+     3. No menu que aparece, selecione `Gerenciador de Dispositivos`.
+     4. Expanda a seção `Portas (COM & LPT)`.
+     5. Verifique se a sua placa ESP8266 aparece listada como `Silicon Labs CP210x USB to UART Bridge (COMx)`, onde `COMx` é a porta COM atribuída. [Veja a imagem](#porta-com-no-gerenciador-de-dispositivos).
+
+### Imagens
+
+- **Porta COM no Gerenciador de Dispositivos:**
+  ![Porta COM no Gerenciador de Dispositivos](https://github.com/user-attachments/assets/187cd7c2-b5dd-443e-a211-69b8254c9ab4)
 
 ---
 
@@ -95,10 +101,9 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
 - [Driver CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 - [ESP8266 Library](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
 
-
-4. **Testar ambiente de desenvolvimento**
+### Testar ambiente de desenvolvimento
    - Executar um programa simples para verificar a instalação correta.
-5. **Conhecer e configurar o hardware do ESP8266 e módulos servo**
+### Conhecer e configurar o hardware do ESP8266 e módulos servo
    - Reconhecer a placa ESP8266 e entender a função dos módulos servo.
 
 ### Montagem do Robô
@@ -195,4 +200,3 @@ Vamos começar pela instalação do Arduino IDE e configuração inicial do ambi
 - [Arduino IDE Download](https://www.arduino.cc/en/Main/Software)
 - [ESP8266 Library](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
 - [Driver CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
-
