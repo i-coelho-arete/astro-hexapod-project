@@ -26,7 +26,7 @@
 
 ## Introdução
 
-O projeto hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, utilizando a placa de controle ESP8266. Nosso objetivo é programar, documentar e melhorar o robô seguindo o tutorial fornecido, além de criar novas lições e explicações detalhadas.
+O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, utilizando a placa de controle ESP8266. Nosso objetivo é criar um material único e original que programe, documente e melhore o robô, utilizando lições e explicações detalhadas. Queremos proporcionar uma experiência de aprendizado rica e acessível para todos que desejam construir e programar seu próprio robô hexapod.
 
 ## Ferramentas e Tecnologias
 
