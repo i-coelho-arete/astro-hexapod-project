@@ -38,21 +38,35 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
 
 ## Estrutura do Plano de Desenvolvimento
 
-### Instalação do Software e Conhecimento de Hardware
+### Instalação do Software e Conhecimento de Hardware (Windows)
+
 1. **Instalar Arduino IDE**
    - Baixar e instalar a versão mais recente do Arduino IDE.
    - [Link para Download](https://www.arduino.cc/en/software)
      1. Acesse o link de download.
-     2. Selecione a versão correspondente ao seu sistema operacional (Windows, Mac OS ou Linux).
+     2. Selecione a versão correspondente ao Windows.
      3. Siga as instruções de instalação fornecidas pelo site.
      4. Após a instalação, abra o Arduino IDE para verificar se está funcionando corretamente.
 
 2. **Instalar drivers necessários para ESP8266**
    - Instalar o driver CP210x para comunicação USB-Serial.
-     1. Acesse a [página de drivers da Silicon Labs](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
-     2. Baixe o driver correspondente ao seu sistema operacional (Windows, Mac OS ou Linux).
-     3. Execute o instalador e siga as instruções na tela.
-     4. Após a instalação, conecte a placa ESP8266 ao seu computador para garantir que o driver foi instalado corretamente.
+     - **Windows:**
+       - CP210x Universal Windows Driver v11.3.0 (6/24/2023)
+       - [Download Link](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+
+     **Instruções de Instalação:**
+     1. Acesse o [link de download do driver CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
+     2. Baixe a versão "CP210x Universal Windows Driver v11.3.0".
+     3. Descompacte o arquivo `.zip` baixado.
+     4. **Instalação Manual:**
+        1. Usando o Windows File Explorer, localize a pasta do driver que você descompactou.
+        2. Clique com o botão direito do mouse no arquivo `silabser.inf` e selecione `Instalar`.
+        3. Siga as instruções na tela.
+     5. **Instalação Automatizada:**
+        1. Se o Windows solicitar a instalação de um driver para um dispositivo CP210x (por exemplo, quando você conectar um CP210x ao seu computador):
+           1. Use o diálogo para procurar o local do driver.
+           2. Localize a pasta do driver (que você descompactou anteriormente).
+           3. Siga as instruções.
 
 3. **Adicionar biblioteca ESP8266 ao Arduino IDE**
    - Configurar o URL adicional no Arduino IDE para baixar a biblioteca ESP8266:
@@ -66,6 +80,21 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
      5. Vá em `Tools > Board > Boards Manager`.
      6. Pesquise por `esp8266` e instale a versão mais recente da biblioteca ESP8266.
      7. Após a instalação, selecione a placa `NodeMCU 1.0 (ESP-12E Module)` em `Tools > Board`.
+
+4. **Verificar a Instalação do Driver**
+   - Para garantir que o driver CP210x foi instalado corretamente:
+     1. Conecte a placa ESP8266 ao seu computador.
+     2. Abra o `Gerenciador de Dispositivos` no Windows.
+     3. Expanda a seção `Portas (COM & LPT)`.
+     4. Verifique se a sua placa ESP8266 aparece listada como `Silicon Labs CP210x USB to UART Bridge (COMx)`, onde `COMx` é a porta COM atribuída.
+
+---
+
+## Referências
+- [Arduino IDE Download](https://www.arduino.cc/en/software)
+- [Driver CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+- [ESP8266 Library](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
+
 
 4. **Testar ambiente de desenvolvimento**
    - Executar um programa simples para verificar a instalação correta.
