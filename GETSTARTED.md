@@ -55,7 +55,7 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
        - [Download Link](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
      **Instruções de Instalação:**
-     1. Acesse o [link de download do driver CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
+     1. Acesse o [link de download do driver CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
      2. Baixe a versão "CP210x Universal Windows Driver v11.3.0".
      3. Descompacte o arquivo `.zip` baixado.
      4. **Instalação Manual:**
