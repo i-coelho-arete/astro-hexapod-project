@@ -1,4 +1,4 @@
-# Hexapod Development
+# Quadroped Development
 
 ## Índice
 
@@ -92,7 +92,7 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
 ### Imagens
 
 - **Instalação do Arduino IDE:**
-  ![Instalação do Arduino IDE](https://github.com/user-attachments/assets/9fbaba14-3243-4ecd-921b-e75533ef0837)
+  ![Instalação do Arduino IDE](https://github.com/user-attachments/assets/7f638afe-9b8b-47f3-9f67-201183d1a476)
 
 - **Instalação do Driver CP210x:**
   ![Instalação do Driver CP210x](path/to/your/image-cp210x.png)
@@ -101,7 +101,11 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
   ![Porta COM no Gerenciador de Dispositivos](https://github.com/user-attachments/assets/187cd7c2-b5dd-443e-a211-69b8254c9ab4)
 
 - **Adicionar Biblioteca ESP8266:**
-  ![Adicionar Biblioteca ESP8266](https://github.com/user-attachments/assets/a55daeb5-d0b0-462c-a4a7-35c0be568886)
+  ![Adicionar Biblioteca ESP8266](https://github.com/user-attachments/assets/69422036-f4b0-4055-8658-1c41f7accd1b)
+
+  ![Instalar Biblioteca ESP8266](https://github.com/user-attachments/assets/d0e8b8a9-cdd8-4776-8285-47eda0148225)
+
+
 
 
 
