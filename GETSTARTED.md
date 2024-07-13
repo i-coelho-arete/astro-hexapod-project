@@ -46,7 +46,7 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
      1. Acesse o link de download.
      2. Selecione a versão correspondente ao Windows.
      3. Siga as instruções de instalação fornecidas pelo site.
-     4. Após a instalação, abra o Arduino IDE para verificar se está funcionando corretamente.
+     4. Após a instalação, abra o Arduino IDE para verificar se está funcionando corretamente. [Veja a imagem](#instalação-do-arduino-ide).
 
 2. **Instalar drivers necessários para ESP8266**
    - Instalar o driver CP210x para comunicação USB-Serial.
@@ -66,7 +66,7 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
         1. Se o Windows solicitar a instalação de um driver para um dispositivo CP210x (por exemplo, quando você conectar um CP210x ao seu computador):
            1. Use o diálogo para procurar o local do driver.
            2. Localize a pasta do driver (que você descompactou anteriormente).
-           3. Siga as instruções.
+           3. Siga as instruções. [Veja a imagem](#instalação-do-driver-cp210x).
 
 3. **Adicionar biblioteca ESP8266 ao Arduino IDE**
    - Configurar o URL adicional no Arduino IDE para baixar a biblioteca ESP8266:
@@ -79,7 +79,7 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
      4. Clique em `OK`.
      5. Vá em `Tools > Board > Boards Manager`.
      6. Pesquise por `esp8266` e instale a versão mais recente da biblioteca ESP8266.
-     7. Após a instalação, selecione a placa `NodeMCU 1.0 (ESP-12E Module)` em `Tools > Board`.
+     7. Após a instalação, selecione a placa `NodeMCU 1.0 (ESP-12E Module)` em `Tools > Board`. [Veja a imagem](#adicionar-biblioteca-esp8266).
 
 4. **Verificar a Instalação do Driver**
    - Para garantir que o driver CP210x foi instalado corretamente:
@@ -90,6 +90,15 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
      5. Verifique se a sua placa ESP8266 aparece listada como `Silicon Labs CP210x USB to UART Bridge (COMx)`, onde `COMx` é a porta COM atribuída. [Veja a imagem](#porta-com-no-gerenciador-de-dispositivos).
 
 ### Imagens
+
+- **Instalação do Arduino IDE:**
+  ![Instalação do Arduino IDE](https://github.com/user-attachments/assets/9fbaba14-3243-4ecd-921b-e75533ef0837)
+
+- **Instalação do Driver CP210x:**
+  ![Instalação do Driver CP210x](path/to/your/image-cp210x.png)
+
+- **Adicionar Biblioteca ESP8266:**
+  ![Adicionar Biblioteca ESP8266](path/to/your/image-esp8266.png)
 
 - **Porta COM no Gerenciador de Dispositivos:**
   ![Porta COM no Gerenciador de Dispositivos](https://github.com/user-attachments/assets/187cd7c2-b5dd-443e-a211-69b8254c9ab4)
@@ -138,65 +147,4 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
 2. **Adicionar novas funcionalidades e comportamentos ao robô**
    - Melhorar e expandir as capacidades do robô.
 3. **Documentar todos os passos, melhorias e lições aprendidas**
-   - Manter um registro detalhado do desenvolvimento e das melhorias.
-
-## Estrutura do Plano de Documentação
-
-### Introdução ao Projeto
-- Visão geral do projeto hexapod.
-- Objetivos e metas do projeto.
-
-### Configuração do Ambiente
-- Guia passo a passo para instalação do Arduino IDE e drivers.
-- Adição de bibliotecas e configuração do ambiente de desenvolvimento.
-
-### Montagem do Hardware
-- Lista detalhada de peças.
-- Instruções ilustradas de montagem.
-- Dicas e truques para uma montagem eficiente.
-
-### Programação Inicial
-- Exemplos de código para testes iniciais.
-- Explicação detalhada das funções básicas.
-
-### Movimentação e Controle
-- Códigos de movimentação básica.
-- Explicações sobre os algoritmos de controle de movimento.
-- Exemplos de códigos avançados.
-
-### Controle WiFi e Extensões
-- Guia de configuração do controle WiFi.
-- Exemplos de códigos para controle via aplicativo.
-- Ideias para extensões e melhorias.
-
-### Depuração e Testes
-- Métodos de teste e depuração.
-- Solução de problemas comuns.
-
-### Conclusão
-- Resumo das realizações.
-- Lições aprendidas.
-- Possíveis futuras expansões do projeto.
-
-## Próximos Passos
-
-1. **Configuração do Ambiente de Desenvolvimento**
-   - Instalar o Arduino IDE e configurar a biblioteca ESP8266.
-   - Verificar a instalação do driver de porta serial.
-2. **Montagem do Hardware**
-   - Listar todas as peças e componentes.
-   - Seguir os passos de montagem do tutorial.
-3. **Desenvolvimento Inicial**
-   - Carregar o programa de zeragem e testar os servos.
-   - Iniciar a programação dos movimentos básicos.
-
----
-
-Vamos começar pela instalação do Arduino IDE e configuração inicial do ambiente. Verifique o tutorial para seguir os passos de instalação detalhados.
-
----
-
-## Referências
-- [Arduino IDE Download](https://www.arduino.cc/en/Main/Software)
-- [ESP8266 Library](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
-- [Driver CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+   - Manter um registro
