@@ -42,7 +42,7 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
 
 1. **Instalar Arduino IDE**
    - Baixar e instalar a versão mais recente do Arduino IDE.
-   - [Link para Download](https://www.arduino.cc/en/software)
+   - [Link para Download]([https://www.arduino.cc/en/software](https://github.com/arduino/arduino-ide/releases))
      1. Acesse o link de download.
      2. Selecione a versão correspondente ao Windows.
      3. Siga as instruções de instalação fornecidas pelo site.
@@ -97,11 +97,13 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
 - **Instalação do Driver CP210x:**
   ![Instalação do Driver CP210x](path/to/your/image-cp210x.png)
 
-- **Adicionar Biblioteca ESP8266:**
-  ![Adicionar Biblioteca ESP8266](path/to/your/image-esp8266.png)
-
 - **Porta COM no Gerenciador de Dispositivos:**
   ![Porta COM no Gerenciador de Dispositivos](https://github.com/user-attachments/assets/187cd7c2-b5dd-443e-a211-69b8254c9ab4)
+
+- **Adicionar Biblioteca ESP8266:**
+  ![Adicionar Biblioteca ESP8266](https://github.com/user-attachments/assets/a55daeb5-d0b0-462c-a4a7-35c0be568886)
+
+
 
 ---
 
