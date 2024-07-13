@@ -103,9 +103,12 @@ O projeto Hexapod é um robô inspirado em um aracnídeo biónico quadrúpede, u
 - **Adicionar Biblioteca ESP8266:**
   ![Adicionar Biblioteca ESP8266](https://github.com/user-attachments/assets/69422036-f4b0-4055-8658-1c41f7accd1b)
 
-  ![Instalar Biblioteca ESP8266](https://github.com/user-attachments/assets/d0e8b8a9-cdd8-4776-8285-47eda0148225)
+  ![Instalar Biblioteca ESP8266](https://github.com/user-attachments/assets/c2c18f8f-f534-44ec-9616-b39f221fba6d5)
+
+  ![Selecionar Placa](https://github.com/user-attachments/assets/6f53409e-3c98-4f5a-8923-8673fc86cac1)
 
 
+  
 
 
 
