@@ -1,4 +1,4 @@
-# Astro Hexapod Project
+# Astro Quadruped Project
 
 Bem-vindo ao projeto Hexapod! Este repositório contém todo o código, documentação e recursos necessários para construir e programar um robô hexapod utilizando a placa de controle ESP8266.
 
